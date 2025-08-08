@@ -93,18 +93,6 @@ Docker Compose Build Output
 
 ---
 
-
-## 📤 Deliverables
-
-- [x] `Dockerfile`
-- [x] `docker-compose.yml`
-- [x] `index.js`
-- [x] `README.md`
-- [x] Screenshot (`screenshots/output.png`)
-- [x] Pushed to GitHub ✅
-
----
-
 ## ✅ Author
 
 **Nikhil B**  
