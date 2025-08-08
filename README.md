@@ -6,16 +6,17 @@ This is a simple Node.js application containerized using Docker. It demonstrates
 
 ## 📁 Project Structure
 
+```
 node-docker-task/
 │
-├── Dockerfile # Docker image definition
-├── docker-compose.yml # (Optional) Compose file for easy container setup
-├── index.js # Main Node.js application
-├── package.json # Project metadata and dependencies
-├── README.md # 📄 You are here
-└── screenshots/ # Screenshots folder
-└── output.png # Terminal output screenshot
-
+├── Dockerfile                # Docker image definition
+├── docker-compose.yml        # (Optional) Compose file for easy container setup
+├── index.js                  # Main Node.js application
+├── package.json              # Project metadata and dependencies
+├── README.md                 # 📄 You are here
+└── screenshots/              # Screenshots folder
+    └── output.png            # Terminal output screenshot
+```
 
 ---
 
@@ -47,31 +48,42 @@ docker build -t devops-task .
 
 # Run container on port 3000
 docker run -p 3000:3000 devops-task
+```
 
-2. Using Docker Compose
+---
 
+### 2. Using Docker Compose
+
+```bash
 # Start the container using Docker Compose
 docker-compose up
+```
 
-Then, visit:
-http://localhost:3000
+Then, visit:  
+[http://localhost:3000](http://localhost:3000)
 
-📸 Output Screenshot
-Screenshot of the terminal output after running the container:
+---
 
+## 📸 Output Screenshot
 
-📤 Deliverables
- Dockerfile
+> Screenshot of the terminal output after running the container:
 
- docker-compose.yml
+![output](screenshots/output.png)
 
- index.js
+---
 
- README.md
+## 📤 Deliverables
 
- Screenshot (screenshots/output.png)
+- [x] `Dockerfile`
+- [x] `docker-compose.yml`
+- [x] `index.js`
+- [x] `README.md`
+- [x] Screenshot (`screenshots/output.png`)
+- [x] Pushed to GitHub ✅
 
- Pushed to GitHub ✅
+---
 
-✅ Author
-Nikhil B
+## ✅ Author
+
+**Nikhil B**  
+[GitHub](https://github.com/nikhil3939) | [LinkedIn](https://www.linkedin.com/in/nikhil-b-23b89327a)
