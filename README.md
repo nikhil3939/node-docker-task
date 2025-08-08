@@ -66,11 +66,33 @@ Then, visit:
 
 ## 📸 Output Screenshot
 
+Docker Containers Build Output
+
 > Screenshot of the terminal output after running the container:
 
-![output](screenshots/output.png)
+![output](screenshots/node-docker-task--screenshots--docker-run.png)
+
+> Screenshot of the webbrowser output after running the container:
+
+![output](screenshots/node-docker-task--screenshots--app-output.png)
 
 ---
+
+
+## 📸 Output Screenshot
+
+Docker Compose Build Output
+
+> Screenshot of the terminal output after running the container:
+
+![output](screenshots/node-docker-task--screenshots--docker-compose-up-terminal.png)
+
+> Screenshot of the webbrowser output after running the container:
+
+![output](screenshots/node-docker-task--screenshots--docker-compose-up--appoutput.png)
+
+---
+
 
 ## 📤 Deliverables
 
