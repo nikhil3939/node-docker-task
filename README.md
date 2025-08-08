@@ -1,6 +1,6 @@
-# 🚀 DevOps Task: Dockerized Node.js App
+# Node.js Docker Task 🚀
 
-This project is a simple Node.js application containerized using Docker and optionally run using Docker Compose. It was created as part of a DevOps practice task.
+This is a simple Node.js application containerized using Docker. It demonstrates how to build a lightweight container image and run the app using both `docker run` and `docker-compose`.
 
 ---
 
@@ -8,41 +8,70 @@ This project is a simple Node.js application containerized using Docker and opti
 
 node-docker-task/
 │
-├── Dockerfile
-├── docker-compose.yml # (Optional: If using Docker Compose)
-├── index.js # Node.js app entry point
-├── package.json
-├── package-lock.json
-├── README.md
-└── screenshots/
-└──# Screenshot of the running container output
-
+├── Dockerfile # Docker image definition
+├── docker-compose.yml # (Optional) Compose file for easy container setup
+├── index.js # Main Node.js application
+├── package.json # Project metadata and dependencies
+├── README.md # 📄 You are here
+└── screenshots/ # Screenshots folder
+└── output.png # Terminal output screenshot
 
 
 ---
 
-## 🌐 App Info
+## ✨ Key Features
 
-- Starts a basic HTTP server using Node.js  
-- Listens on **port 3000**  
-- Returns:  
-  **"Hello from Nikhil's DevOps App!"**
+- Simple Node.js app that prints a welcome message.
+- Runs inside a Docker container.
+- `docker run` and `docker-compose` support.
+- Easy to build, run, and share.
 
 ---
 
-## 🐳 Docker Commands
+## 🔧 Technologies Used
 
-### 1. Build Docker Image
+- Node.js
+- Docker
+- Docker Compose (optional)
+- VS Code (for development)
+
+---
+
+## ⚙️ How to Run
+
+### 1. Using Docker CLI
 
 ```bash
+# Build Docker image
 docker build -t devops-task .
 
-
-2. Run Docker Container
+# Run container on port 3000
 docker run -p 3000:3000 devops-task
 
-3. Docker Compose (Optional)
+2. Using Docker Compose
+
+# Start the container using Docker Compose
 docker-compose up
 
-4. Screenshots
-Stored inside the /screenshots folder
+Then, visit:
+http://localhost:3000
+
+📸 Output Screenshot
+Screenshot of the terminal output after running the container:
+
+
+📤 Deliverables
+ Dockerfile
+
+ docker-compose.yml
+
+ index.js
+
+ README.md
+
+ Screenshot (screenshots/output.png)
+
+ Pushed to GitHub ✅
+
+✅ Author
+Nikhil B
